@@ -56,5 +56,9 @@ public class Operadores {
             System.out.println("Os nomes sao diferentes");
         }
 
+        //Comparacao ternaria, so funciona para variaveis booleanas (variavel ? valor1 : valor2) significa que se for verdadeiro define 1, se for falso define 2
+        int numero4 = (sera ? 1 : 2 );
+        System.out.println("Variavel booleana Sera  eh verdadeira imprime 1, se for falsa imprime 2 -- resultado e " + numero4);
+    
     }
 }
